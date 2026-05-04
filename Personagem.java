@@ -1,4 +1,5 @@
 public class Personagem {
+    // Atributos básicos do personagem
     String nome;
     String classe;
     int nivel;
@@ -7,18 +8,21 @@ public class Personagem {
 
     public Personagem(String nome, String classe, int nivel, int pontosDeVida, double poderBase) {
         this.nome = nome;
-        .
-        .
-        .
-
+        this.classe = classe;
+        this.nivel = nivel;
+        this.pontosDeVida = pontosDeVida;
+        this. poderBase = poderBase;
     }
 
-    public void exibirStatus() {
-        System.out.println("--- Status do Personagem ---");
-        .
-        .
-        .
 
+    void exibirStatus() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Classe: " + classe);
+        System.out.println("Nível: " + nivel);
+        System.out.println("Pontos de Vida: " + pontosDeVida);
+        System.out.println("Poder Base: " + poderBase);
+        System.out.println(); // linha em branco para separar personagens
     }
+
+   
 }
-
