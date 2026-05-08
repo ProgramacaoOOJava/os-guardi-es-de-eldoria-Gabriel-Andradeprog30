@@ -1,4 +1,6 @@
-public class Personagem {
+package Jogo;
+
+public abstract class Personagem {
     // Atributos básicos do personagem
     String nome;
     String classe;
@@ -21,8 +23,9 @@ public class Personagem {
         System.out.println("Nível: " + nivel);
         System.out.println("Pontos de Vida: " + pontosDeVida);
         System.out.println("Poder Base: " + poderBase);
-        System.out.println(); // linha em branco para separar personagens
+        System.out.println(); 
     }
 
+    public abstract void usarHabilidadeEspecial();
    
 }
