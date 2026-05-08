@@ -8,6 +8,17 @@ public class Guerreiro extends Personagem {
     }
 
     @Override
+    void exibirStatus() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Classe: " + classe);
+        System.out.println("Nível: " + nivel);
+        System.out.println("Pontos de Vida: " + pontosDeVida);
+        System.out.println("Poder Base: " + poderBase);
+        System.out.println("forca: " + forca);
+        System.out.println();
+    } // linha em branco para separar personagens
+
+    @Override
     public void usarHabilidadeEspecial() {
         System.out.println("Ataque Espada Flamejante!");
     }
